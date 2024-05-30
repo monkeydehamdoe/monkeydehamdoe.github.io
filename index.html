@@ -20,9 +20,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="Home">
   <!-- Open Navbar -->
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid nav-content">
       <a class="navbar-brand" href="#">Edu<span>More</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -31,11 +31,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="#">Home</a>
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Testi</a>
-          <a class="nav-link" href="#">Blog</a>
-          <a class="nav-link" href="#">Product</a>
+          <a class="nav-link" href="#Home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#testi">Testi</a>
+          <a class="nav-link" href="#Product">Product</a>
         </div>
       </div>
     </div>
@@ -48,7 +47,11 @@
       <div class="row">
         <div class="col">
           <h1>Edu<span>More</span></h1>
-          <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, sapiente
+          <p class="text-light">Lorem ipsum dolor sit
+            amet
+            consectetur adipisicing
+            elit.
+            Nisi, sapiente
             consectetur
             quibusdam ipsam nobis
             dolor
@@ -165,8 +168,7 @@
           <div class="card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Bang Bimo Aryo Wjak</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
+              <p class="card-text">With supporting text below as a natural lead-in to addition content.</p>
             </div>
           </div>
         </div>
@@ -174,6 +176,54 @@
     </main>
   </section>
   <!-- Last Testimoni -->
+
+  <!-- Product -->
+  <section id="Product" class="product">
+    <main class="container">
+      <div class="row">
+        <h2 class="text-center">Product</h2>
+      </div>
+      <div class="row">
+        <p class="pt-4">Udahhhh. akhirnya selesai sampe sini aja</p>
+        <p>Buat produknya nanti aja kalau udah selesai</p>
+      </div>
+      <div class="row">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Ehh. Klik dulu tombol ini
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 text-light-edu" id="exampleModalLabel">Pesan Untuk Hasna Dzakiyah</h1>
+              </div>
+              <div class="modal-body">
+                Tetap semangat walau banyak tantangan yang harus dilewati. Jangan hiraukan perkataan orang lain. Terus
+                aja bergerak. Kalau misalnya butuh bantuan atau apa segala macam, bilang ajaa. Okee?!!.
+                Makasih yaa udah bantuin ngebuat ini:>
+              </div>
+              <div class="modal-footer">
+
+                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Makasih banyak..</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+  <!-- Last Product -->
+
+  <!-- Footer -->
+  <footer>
+    <p class="text-light-edu text-center">Created with love by <a href="https://github.com/monkeydehamdoe"
+        class="text-light-edu">monkeydehamdoe</a>
+    </p>
+  </footer>
+  <!-- Last Footer -->
 
   <!-- Feather JS -->
   <script>

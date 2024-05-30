@@ -83,7 +83,7 @@ body {
 #home {
   display: flex;
   background-image: url(img/study.jpg);
-  min-height: 65vh;
+  min-height: 90vh;
   align-items: center;
   background-size: cover;
   background-position: center;
@@ -122,7 +122,8 @@ button {
 
 .about h2,
 .testi h2 {
-  margin-top: 3%;
+  margin-top: 6%;
+  margin-bottom: 3%;
 }
 
 .about-content {
@@ -139,8 +140,46 @@ button {
   background-color: var(--bg);
 }
 
-
-
 .testi .row {
   margin: 2% auto;
+}
+
+.testi .card {
+  margin: auto;
+}
+
+/* Product */
+.product {
+  background-color: var(--light);
+  min-height: 80vh;
+}
+
+.product h2 {
+  padding-top: 5%;
+}
+
+.modal-body {
+  background-color: var(--light);
+}
+
+.modal-footer {
+  background-color: var(--primary);
+}
+
+.modal-header {
+  background-color: var(--bg);
+}
+
+/* Footer */
+footer {
+  min-height: 18vh;
+  background-color: var(--bg);
+}
+
+footer p {
+  padding-top: 3.5%;
+}
+
+footer a:hover {
+  color: var(--secondary);
 }
