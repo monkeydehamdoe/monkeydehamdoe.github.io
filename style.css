@@ -1,185 +1,67 @@
 :root {
-  --bg: #1e3d59;
-  --primary: #ff6e40;
-  --secondary: #ffc13b;
-  --light: #f5f0e1;
+  --bg: #00224D;
+  --primary: #A0153E;
+  --friend: #5D0E41;
+  --light: #FF204E;
 }
 
-.btn-primary {
-  background-color: var(--bg);
-  border-color: var(--bg);
-}
-
-.btn-warning {
-  background-color: var(--secondary);
-  border-color: var(--secondary);
-}
-
-.bg-edu {
+.bg-monk {
   background-color: var(--bg);
 }
 
-.bg-edu-light h1,
-p,
-h2,
-h3,
-h4 {
-  font-family: 'Ubuntu';
-  color: var(--bg);
+.bg-ham {
+  background-color: var(--friend);
 }
 
-.text-light-edu {
-  color: var(--light);
+.bg-doe {
+  background-color: var(--light);
+}
+
+.bg-key {
+  background-color: var(--primary);
 }
 
 body {
-  background-color: var(--light);
+  min-height: 2000px;
+}
+
+a {
+  text-decoration: none;
+
 }
 
 /* Navbar */
-.navbar {
-  background-color: var(--bg);
-}
 
-.navbar .navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 25px;
-  color: var(--secondary);
-  font-weight: bold;
-  text-shadow: 2px 2px rgba(1, 1, 1, 0.9);
-}
-
-.navbar .navbar-brand span {
-  font-family: "Poetsen One", sans-serif;
-  color: var(--primary);
-}
-
-.navbar .navbar-nav {
-  margin-left: auto;
-}
-
-.nav-content {
-  margin: 0 2%;
-}
-
-.navbar-nav .nav-link {
-  color: var(--secondary);
-}
-
-.btn-warning {
-  background-color: var(--secondary);
-}
-
-.btn-warning:hover {
-  background-color: var(--primary);
-}
-
-.navbar-nav form {
-  margin: 0 2%;
-}
-
-
-/* Hero Section */
-#home {
-  display: flex;
-  background-image: url(img/study.jpg);
-  min-height: 90vh;
-  align-items: center;
+/* Hero */
+.hero {
+  min-height: 65vh;
+  background-image: url(img/island.jpg);
   background-size: cover;
   background-position: center;
-
 }
 
-.hero h1 {
-  font-family: "Ubuntu";
-  color: var(--secondary);
-  font-weight: bold;
-  text-shadow: 2px 2px rgba(1, 1, 1, 0.9);
-}
-
-.hero h1 span {
-  font-family: "Poetsen One", sans-serif;
-  color: var(--primary);
-}
-
-.hero .col .card {
-  margin-left: auto;
-}
-
-.card button {
-  display: block;
-  margin-left: auto;
-}
-
-button {
-  font-family: 'Ubuntu';
-}
-
-/* About Section */
+/* About */
 .about {
-  min-height: 90vh;
+  min-height: max-content;
 }
 
-.about h2,
-.testi h2 {
-  margin-top: 6%;
-  margin-bottom: 3%;
+/* Study */
+.study {
+  min-height: max-content;
 }
 
-.about-content {
-  margin-top: 3%;
-}
-
-.about .tombol {
-  margin-top: 2%;
-}
-
-/* Testimoni */
-.testi {
-  min-height: 90vh;
-  background-color: var(--bg);
-}
-
-.testi .row {
-  margin: 2% auto;
-}
-
-.testi .card {
-  margin: auto;
-}
-
-/* Product */
-.product {
+.galery .card:hover,
+.study .card:hover {
   background-color: var(--light);
-  min-height: 80vh;
+  cursor: pointer;
 }
 
-.product h2 {
-  padding-top: 5%;
-}
-
-.modal-body {
+.galery .card:active,
+.study .card:active {
   background-color: var(--light);
 }
 
-.modal-footer {
-  background-color: var(--primary);
-}
-
-.modal-header {
-  background-color: var(--bg);
-}
-
-/* Footer */
-footer {
-  min-height: 18vh;
-  background-color: var(--bg);
-}
-
-footer p {
-  padding-top: 3.5%;
-}
-
-footer a:hover {
-  color: var(--secondary);
+/* Galery */
+.galery {
+  min-height: max-content;
 }
