@@ -365,7 +365,7 @@ footer .socials a{
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 405px) {
   .about .left .info h2{
     font-size: 30px;
   }
@@ -391,5 +391,17 @@ footer .socials a{
   .works .right .item > p,
   .works .right .item:not(:first-child) p{
     font-size: 13px;
+  }
+
+  footer a{
+    display: inline-block;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  .logo-foot{
+    display: none;
   }
 }
